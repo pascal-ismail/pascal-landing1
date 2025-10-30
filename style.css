@@ -1,0 +1,240 @@
+* {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav {
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    padding: 12px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffd60a;
+}
+
+nav .logo {
+    width: 100%;
+}
+
+nav .list li {
+    display: flex;
+    text-decoration: none;
+    padding: 12px;
+}
+
+nav .list li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .list {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    height: 100vh;
+    background-color: #ffd60a;
+    padding: 100px 120px;
+    align-items: center;
+}
+
+.hero-text .name {
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+.hero-text .profession {
+    font-size: 80px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.hero-text .description {
+    font-size: 16px;
+    max-width: 440px;
+    line-height: 150%;
+    padding-bottom: 40px;
+    opacity: 0.6;
+}
+
+.hero button {
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.hero-image img {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    max-width: 720px;
+}
+
+.more-info {
+    padding: 60px 120px;
+    display: flex;
+    gap: 32px;
+}
+
+.more-info .info-card {
+    display: flex;
+    width: 100%;
+}
+
+.more-info .info-card .card {
+    padding: 12px 16px;
+    width: 100%;
+}
+
+.more-info .info-card .card h1 {
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+.more-info .info-card .card h2 {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6;
+    line-height: 150%;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+}
+
+.service h1 {
+    width: 200px;
+    margin-right: 24px;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.service h2 {
+    width: 100%;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.portfolio {
+    padding: 60px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.port-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.port-text h1 {
+    font-size: 32px;
+    padding-bottom: 12px;
+}
+
+.port-text h2 {
+    font-size: 16px;
+    padding-bottom: 40px;
+    font-weight: normal;
+    opacity: 0.6;
+}
+
+.port-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* 3 kolom sama besar */
+    grid-template-rows: auto;
+    gap: 32px;
+    /* jarak antar grid */
+}
+
+.port-card .card {
+    width: 100%;
+}
+
+.port-card .card img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.port-card .card .content {
+    padding-top: 16px;
+}
+
+.port-card .card .content h1 {
+    font-size: 20px;
+    padding-bottom: 8px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.port-card .card .content h2 {
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 0.6;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 16px;
+}
+
+.port-card .card .content button {
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F7FA;
+}
+
+footer .list {
+    display: flex;
+    text-decoration: none;
+}
+
+footer .list li {
+    padding: 8px 12px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-size: 14px;
+}
+
+footer .list li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer h1 {
+    font-size: 14px;
+    color: black;
+    font-weight: normal;
+    opacity: 0.6;
+}
